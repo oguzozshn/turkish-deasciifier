@@ -1,0 +1,17 @@
+# sanal ortam
+.venv/
+
+# veri, model ağırlıkları, baseline tablosu — hepsi yeniden üretilebilir
+data/*.bin
+data/meta.pkl
+*.pt
+baseline.pkl
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# editör
+.vscode/
+.idea/
